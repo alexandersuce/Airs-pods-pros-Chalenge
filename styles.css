@@ -1,0 +1,101 @@
+body {
+    background-color: black; 
+    background-image: url('https://applemagazine.com/wp-content/uploads/2020/11/AirPods-Pro-3.png');
+    background-position: center 800%; 
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: -45px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 42px; 
+    opacity: 90%;
+}
+
+.logo {
+    width: 50px;
+    height: 55px;
+}
+
+header img {
+    width: 30px;
+    height: 35px;
+}
+
+h3 {
+    color: aliceblue;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.film {
+    display: block;
+    margin: 0 auto;
+    right: -490px;
+    height: 30px;
+    width: 200px;
+}
+
+.intermediate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5px;
+    padding: -10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+ button:hover {
+    background-color: rgb(32, 125, 255);
+ }
+.bar {
+    width: 90%;
+    height: 2px;
+    opacity: 80%;
+    position: relative;
+    border-radius: 20px;
+    right: -40px;
+    background-color: grey;
+    margin: 20px 0;
+}
+
+.search {
+    width: 29px;
+    margin: 20px;
+    height: 25px;
+}
+
+ .shop {
+    width: 39px;
+    height: 35px;
+ }
